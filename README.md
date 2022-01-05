@@ -1,0 +1,1 @@
+# wordle-emoji-exporter

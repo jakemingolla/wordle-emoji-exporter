@@ -1,0 +1,34 @@
+{
+  "name": "wordle-emoji-exporter",
+  "description": "Export your wordle results as emojis!",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png",
+    "192": "icons/icon192.png",
+    "512": "icons/icon512.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "views/popup.html"
+  },
+  "options_ui": {
+    "page": "views/options.html",
+    "open_in_tab": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.powerlanguage.co.uk/*"
+      ],
+      "js": [
+        "src/content-script.js"
+      ]
+    }
+  ]
+}
