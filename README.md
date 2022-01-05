@@ -9,12 +9,18 @@ in the Google Web Store.
 1. [Enable 'Developer Mode'](https://developer.chrome.com/docs/extensions/mv3/faq/#faq-dev-01)
    for extensions on your local Chrome.
 
-2. Build the manifest locally and update it.
+2. Install the local dependencies (and [`nvm`](https://github.com/nvm-sh/nvm) if needed).
+```
+nvm use
+npm install
+```
+
+3. Build the manifest locally and update it.
 ```
 npm run build
 ```
 
-3. You will need to repeatedly refresh the extension during development.
+4. You will need to repeatedly refresh the extension during development.
 
 ## Publishing
 
