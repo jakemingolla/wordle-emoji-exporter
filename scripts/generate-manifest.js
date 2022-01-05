@@ -16,7 +16,6 @@ const main = async () => {
       192: 'icons/icon192.png',
       512: 'icons/icon512.png',
     },
-    permissions: ['storage'],
     action: {
       default_popup: 'views/popup.html',
     },
