@@ -1,8 +1,22 @@
 # wordle-emoji-exporter
 
+<p align="center">
+   <img src="./images/README/slack.JPG" />
+</p>
+
 Export your [Wordle](https://www.powerlanguage.co.uk/wordle/) results to your
 clipboard for easy integration into Slack. Published as an extension
 in the Google Web Store.
+
+One-click access via the extension icon:
+<p align="center">
+   <img src="./images/README/popup.JPG" />
+</p>
+
+Customize your emoji of choice in the options menu:
+<p align="center">
+   <img src="./images/README/options.JPG" />
+</p>
 
 ## Local Development
 
